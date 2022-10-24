@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+h1{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-weight: 800;
+    margin: 55px 0;
+}
+
+.container{
+    display: flex;
+}
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+}
+.section .info{
+    background: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : black;
+    height: 220px;
+}
+.show i{
+    font-size: 100px;
+    color: rgb(255, 233, 194);
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    padding: 5px;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 350px;
+    height: 50px;
+}
+.selection button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    font-size: 33px;
+    color: rgb(255, 233, 194);
+}
+
